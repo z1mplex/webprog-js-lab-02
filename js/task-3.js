@@ -15,7 +15,6 @@ function getElementWidth(content, padding, border) {
     }
 }
 
-// Виклики функції для перевірки
-getElementWidth("50px", "8px", "4px"); // Виведе: "The total width of the element is 74 pixels"
-getElementWidth("60px", "12px", "8.5px"); // Виведе: "The total width of the element is 101 pixels"
-getElementWidth("200px", "0px", "0px"); // Виведе: "The total width of the element is 200 pixels"
+console.log(getElementWidth("50px", "8px", "4px")); // Виведе: "The total width of the element is 74 pixels"
+console.log(getElementWidth("60px", "12px", "8.5px")); // Виведе: "The total width of the element is 101 pixels"
+console.log(getElementWidth("200px", "0px", "0px")); // Виведе: "The total width of the element is 200 pixels"
